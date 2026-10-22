@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Jenit Jain</title>
+  <meta name="description" content="Jenit Jain — five versions of my CV, from a one-liner to the complete portfolio." />
+  <meta name="theme-color" content="#fdfdfc" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234338ca'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='12' fill='white' text-anchor='middle'%3EJJ%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Jenit Jain<span class="dot">.</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#about">About</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#focus">Focus</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#achievements">Achievements</a>
+        <a class="nav-cv" href="cv.html" aria-current="page">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cv-page">
+    <div class="wrap">
+
+      <header class="cv-intro">
+        <p class="eyebrow">Curriculum Vitae</p>
+        <h1>Five versions of the same person.</h1>
+        <p>Pick your attention span. Deep links work — <code>/cv.html#long</code>, <code>#short</code>, <code>#full</code>.</p>
+      </header>
+
+      <div class="cv-tabs" aria-label="CV versions">
+
+        <!-- Radio state (hidden) -->
+        <input type="radio" name="cv-level" id="cv-vvshort" class="cv-radio" checked />
+        <input type="radio" name="cv-level" id="cv-vshort"  class="cv-radio" />
+        <input type="radio" name="cv-level" id="cv-short"   class="cv-radio" />
+        <input type="radio" name="cv-level" id="cv-long"    class="cv-radio" />
+        <input type="radio" name="cv-level" id="cv-full"    class="cv-radio" />
+
+        <!-- Tab bar -->
+        <nav class="tab-bar" aria-label="Choose CV depth">
+          <label for="cv-vvshort">Very Very Short</label>
+          <label for="cv-vshort">Very Short</label>
+          <label for="cv-short">Short</label>
+          <label for="cv-long">Long</label>
+          <label for="cv-full">Complete Portfolio</label>
+        </nav>
+
+        <!-- Panels -->
+        <div class="cv-panels">
+
+          <!-- ============================================================
+               1. VERY VERY SHORT
+               ============================================================ -->
+          <section class="cv-panel" id="panel-vvshort" aria-label="Very very short CV">
+            <div class="panel-min">
+              <h2 class="cv-name">Jenit Jain</h2>
+              <p class="cv-sub">Research Assistant · High Energy Physics</p>
+              <p class="cv-sub">TIFR Hyderabad</p>
+              <p class="cv-sub-2">B.Tech Electrical Engineering · IIT Delhi · 2026</p>
+              <p class="punchline">“Believe me, I am a scientist.”</p>
+            </div>
+            <div class="cv-links">
+              <a href="https://github.com/Jenit-Jain-J2" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/jenit-jain/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="mailto:jenit@iitd.ac.in">Email</a>
+            </div>
+          </section>
+
+          <!-- ============================================================
+               2. VERY SHORT  (business-card length)
+               ============================================================ -->
+          <section class="cv-panel" id="panel-vshort" aria-label="Very short CV">
+            <h2 class="cv-name">Jenit Jain</h2>
+            <p class="cv-role">Research Assistant, High Energy Physics — TIFR Hyderabad</p>
+            <p class="cv-meta">B.Tech Electrical Engineering · IIT Delhi · 2026</p>
+
+            <div class="cv-section">
+              <h2>Currently</h2>
+              <p class="cv-prose">
+                Research in the High Energy Physics group at TIFR Hyderabad, based in the
+                Patawatt Building.
+                <!-- TODO: one line on your specific project -->
+              </p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Before</h2>
+              <p class="cv-prose">
+                Product intern at Ransh Innovation (Delhi, 2025) · Research fellow under
+                Prof. Rakesh Pilani at IIT Delhi (2024) · Teaching mentor with the
+                Himalayan Chipko Foundation, Chamoli (2023).
+              </p>
+            </div>
+
+            <div class="cv-links">
+              <a href="https://github.com/Jenit-Jain-J2" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/jenit-jain/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="mailto:jenit@iitd.ac.in">Email</a>
+            </div>
+          </section>
+
+          <!-- ============================================================
+               3. SHORT  (one-page résumé)
+               ============================================================ -->
+          <section class="cv-panel" id="panel-short" aria-label="Short CV">
+            <h2 class="cv-name">Jenit Jain</h2>
+            <p class="cv-role">Research Assistant · High Energy Physics · TIFR Hyderabad</p>
+            <p class="cv-meta">B.Tech Electrical Engineering, IIT Delhi · 2026 · jenit@iitd.ac.in</p>
+
+            <div class="cv-section">
+              <h2>Education</h2>
+              <div class="cv-entry">
+                <span class="when">2022 – 2026</span>
+                <div>
+                  <h3>B.Tech, Electrical Engineering</h3>
+                  <p class="where">Indian Institute of Technology Delhi</p>
+                  <!-- TODO: CPI / rank / relevant coursework -->
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Experience</h2>
+
+              <div class="cv-entry">
+                <span class="when">2026 – Present</span>
+                <div>
+                  <h3>Research Assistant</h3>
+                  <p class="where">TIFR Hyderabad · High Energy Physics Lab</p>
+                  <p><!-- TODO: one line on the project --></p>
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <span class="when">2025</span>
+                <div>
+                  <h3>Product Intern</h3>
+                  <p class="where">Ransh Innovation · Delhi</p>
+                  <p><!-- TODO: one line --></p>
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <span class="when">2024</span>
+                <div>
+                  <h3>Research Fellow</h3>
+                  <p class="where">IIT Delhi · under Prof. Rakesh Pilani</p>
+                  <p><!-- TODO: one line --></p>
+                </div>
+              </div>
+
+              <div class="cv-entry">
+                <span class="when">2023</span>
+                <div>
+                  <h3>Teaching Mentor</h3>
+                  <p class="where">Himalayan Chipko Foundation · Chamoli, Uttarakhand</p>
+                  <p><!-- TODO: subjects, grade level --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Skills</h2>
+              <p class="cv-prose">
+                <!-- TODO: prune to what is actually true -->
+                Python · C/C++ · MATLAB · JavaScript · Git · Linux · embedded systems ·
+                machine learning · signal processing
+              </p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Selected Projects</h2>
+              <p class="cv-prose">
+                <!-- TODO: 2–3 projects with repo names -->
+                See <a href="index.html#projects">the projects section</a> for current work.
+              </p>
+            </div>
+
+            <div class="cv-links">
+              <a href="https://github.com/Jenit-Jain-J2" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/jenit-jain/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="mailto:jenit@iitd.ac.in">Email</a>
+            </div>
+          </section>
+
+          <!-- ============================================================
+               4. LONG  (academic CV, 2+ pages)
+               ============================================================ -->
+          <section class="cv-panel" id="panel-long" aria-label="Long CV">
+            <h2 class="cv-name">Jenit Jain</h2>
+            <p class="cv-role">Research Assistant · High Energy Physics · TIFR Hyderabad</p>
+            <p class="cv-meta">B.Tech Electrical Engineering, IIT Delhi · 2026 · jenit@iitd.ac.in</p>
+
+            <div class="cv-section">
+              <h2>Education</h2>
+              <div class="cv-entry">
+                <span class="when">2022 – 2026</span>
+                <div>
+                  <h3>B.Tech, Electrical Engineering</h3>
+                  <p class="where">Indian Institute of Technology Delhi</p>
+                  <p><!-- TODO: CPI, coursework, thesis if any --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Research Experience</h2>
+              <div class="cv-entry">
+                <span class="when">2026 – Present</span>
+                <div>
+                  <h3>Research Assistant — High Energy Physics</h3>
+                  <p class="where">TIFR Hyderabad · Patawatt Building</p>
+                  <p><!-- TODO: 2–3 lines on method, tools, outcome --></p>
+                </div>
+              </div>
+              <div class="cv-entry">
+                <span class="when">2024</span>
+                <div>
+                  <h3>Research Fellow</h3>
+                  <p class="where">IIT Delhi · Prof. Rakesh Pilani</p>
+                  <p><!-- TODO: 2–3 lines --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Industry Experience</h2>
+              <div class="cv-entry">
+                <span class="when">2025</span>
+                <div>
+                  <h3>Product Intern</h3>
+                  <p class="where">Ransh Innovation · Delhi</p>
+                  <p><!-- TODO: 2–3 lines --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Teaching</h2>
+              <div class="cv-entry">
+                <span class="when">2023</span>
+                <div>
+                  <h3>Teaching Mentor</h3>
+                  <p class="where">Himalayan Chipko Foundation · Chamoli, Uttarakhand</p>
+                  <p><!-- TODO: subjects, duration, number of students --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Projects</h2>
+              <div class="cv-entry">
+                <span class="when">—</span>
+                <div>
+                  <h3>Project title</h3>
+                  <p class="where">Stack / tools</p>
+                  <p><!-- TODO: problem, approach, result, repo link --></p>
+                </div>
+              </div>
+              <div class="cv-entry">
+                <span class="when">—</span>
+                <div>
+                  <h3>Project title</h3>
+                  <p class="where">Stack / tools</p>
+                  <p><!-- TODO --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Skills</h2>
+              <p class="cv-prose">
+                <!-- TODO: group by category -->
+                Languages · tools · domains · hardware platforms
+              </p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Achievements</h2>
+              <p class="cv-prose"><!-- TODO: awards, ranks, scholarships --></p>
+            </div>
+
+            <div class="cv-section">
+              <h2>References</h2>
+              <p class="cv-prose">Available on request.</p>
+            </div>
+
+            <div class="cv-links">
+              <a href="https://github.com/Jenit-Jain-J2" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/jenit-jain/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="mailto:jenit@iitd.ac.in">Email</a>
+            </div>
+          </section>
+
+          <!-- ============================================================
+               5. COMPLETE PORTFOLIO
+               ============================================================ -->
+          <section class="cv-panel" id="panel-full" aria-label="Complete portfolio">
+            <h2 class="cv-name">Jenit Jain</h2>
+            <p class="cv-role">Research Assistant · High Energy Physics · TIFR Hyderabad</p>
+            <p class="cv-meta">B.Tech Electrical Engineering, IIT Delhi · 2026 · jenit@iitd.ac.in</p>
+
+            <div class="cv-section">
+              <h2>Profile</h2>
+              <p class="cv-prose">
+                Final-year Electrical Engineering student at IIT Delhi, currently a Research
+                Assistant in the High Energy Physics lab at TIFR Hyderabad. Work spans
+                embedded firmware, hardware/physics-driven design, machine learning and the
+                web interfaces that make research usable.
+              </p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Education</h2>
+              <div class="cv-entry">
+                <span class="when">2022 – 2026</span>
+                <div>
+                  <h3>B.Tech, Electrical Engineering</h3>
+                  <p class="where">Indian Institute of Technology Delhi</p>
+                  <p><!-- TODO: CPI, coursework highlights, thesis --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Research</h2>
+              <div class="cv-entry">
+                <span class="when">2026 – Present</span>
+                <div>
+                  <h3>Research Assistant — High Energy Physics</h3>
+                  <p class="where">TIFR Hyderabad · Patawatt Building</p>
+                  <p><!-- TODO: full description --></p>
+                </div>
+              </div>
+              <div class="cv-entry">
+                <span class="when">2024</span>
+                <div>
+                  <h3>Research Fellow</h3>
+                  <p class="where">IIT Delhi · Prof. Rakesh Pilani</p>
+                  <p><!-- TODO: full description --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Industry</h2>
+              <div class="cv-entry">
+                <span class="when">2025</span>
+                <div>
+                  <h3>Product Intern</h3>
+                  <p class="where">Ransh Innovation · Delhi</p>
+                  <p><!-- TODO: full description --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Teaching &amp; Outreach</h2>
+              <div class="cv-entry">
+                <span class="when">2023</span>
+                <div>
+                  <h3>Teaching Mentor</h3>
+                  <p class="where">Himalayan Chipko Foundation · Chamoli, Uttarakhand</p>
+                  <p><!-- TODO --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Projects — full descriptions</h2>
+              <div class="cv-entry">
+                <span class="when">—</span>
+                <div>
+                  <h3>Project title</h3>
+                  <p class="where">Stack · repo · live link</p>
+                  <p><!-- TODO: problem, approach, result, what you learned --></p>
+                </div>
+              </div>
+              <div class="cv-entry">
+                <span class="when">—</span>
+                <div>
+                  <h3>Project title</h3>
+                  <p class="where">Stack · repo · live link</p>
+                  <p><!-- TODO --></p>
+                </div>
+              </div>
+              <div class="cv-entry">
+                <span class="when">—</span>
+                <div>
+                  <h3>Project title</h3>
+                  <p class="where">Stack · repo · live link</p>
+                  <p><!-- TODO --></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h2>Skills</h2>
+              <p class="cv-prose">
+                <!-- TODO: detailed, grouped -->
+                <strong>Languages:</strong> Python, C/C++, MATLAB, JavaScript ·
+                <strong>Tools:</strong> Git, Linux, VS Code ·
+                <strong>Domains:</strong> embedded systems, machine learning, signal processing, detector physics
+              </p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Coursework</h2>
+              <p class="cv-prose"><!-- TODO: relevant IITD courses --></p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Achievements</h2>
+              <p class="cv-prose"><!-- TODO --></p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Leadership</h2>
+              <p class="cv-prose"><!-- TODO: PORs, clubs, organising --></p>
+            </div>
+
+            <div class="cv-section">
+              <h2>Languages</h2>
+              <p class="cv-prose">English · Hindi <!-- TODO: add others --></p>
+            </div>
+
+            <div class="cv-section">
+              <h2>References</h2>
+              <p class="cv-prose">Available on request.</p>
+            </div>
+
+            <div class="cv-links">
+              <a href="https://github.com/Jenit-Jain-J2" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/jenit-jain/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="mailto:jenit@iitd.ac.in">Email</a>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="colophon">
+        <span>© <span id="year">2025</span> Jenit Jain</span>
+        <span><a href="index.html">← Back to site</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sync URL hash <-> radio state so /cv.html#long works as a shareable link.
+    const radios = [...document.querySelectorAll('.cv-radio')];
+    const syncFromHash = () => {
+      const key = location.hash.slice(1) || 'vvshort';
+      const el = document.getElementById('cv-' + key);
+      if (el) el.checked = true;
+    };
+    syncFromHash();
+    window.addEventListener('hashchange', syncFromHash);
+    radios.forEach(r => r.addEventListener('change', () => {
+      if (r.checked) history.replaceState(null, '', '#' + r.id.replace(/^cv-/, ''));
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
